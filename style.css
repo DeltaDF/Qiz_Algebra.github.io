@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+/* Default classes start */
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-right {
+    align-items: flex-end;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.col-4 {
+    width: 33.333%;
+    padding: 0 15px;
+}
+
+.row {
+   margin: left; }
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+/* Default classes end */
+
+.white-color {
+    color: white;
+}
+
+.cyan-color {
+    color: hsl(178, 100%, 50%);
+}
+
+.text-300 {
+    font-weight: 300;
+}
+.text-400 {
+    font-weight: 400;
+}
+.text-600 {
+    font-weight: 600;
+}
+
+body {
+    font: 300 18px/1.5 "Outfit", sans-serif;
+    width: 1440px;
+    background-color: hsla(155, 55%, 53%, 0.897);
+    text-align: center;
+}
+h1{
+    color: aliceblue;
+}
+h2{
+    color: aliceblue;
+}
+p{
+    color: aliceblue;
+}
+p1{
+   color: rgb(255, 255, 255); 
+}
+p3{
+    color: rgb(255, 255, 255); 
+ }
+.card {
+    background-color: hsl(216, 50%, 16%);
+    color: hsl(215, 51%, 70%);
+}
